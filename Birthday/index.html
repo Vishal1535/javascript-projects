@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kusum Birthday</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+
+  <div class="loader" id="loader">
+    <h1>Loading Surprise For Kusum 💖</h1>
+  </div>
+
+  <!-- MUSIC -->
+
+  <audio autoplay loop id="music">
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- FLOATING HEARTS -->
+
+  <div class="hearts"></div>
+
+  <!-- MAIN CARD -->
+
+  <div class="main-container">
+
+    <!-- LEFT -->
+
+    <div class="left">
+
+      <div class="image-box">
+
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000&auto=format&fit=crop" alt="Kusum">
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+
+    <div class="right">
+
+      <h1>
+        Happy Birthday
+        <span>Kusum ✨</span>
+      </h1>
+
+      <p class="tagline">
+        Some people make life beautiful just by being in it 💖
+      </p>
+
+      <p class="message">
+
+        Dear Kusum 🌸 <br><br>
+
+        Aap sach mein bahut special ho ✨<br>
+
+        Aapki smile sab kuch aur beautiful bana deti hai 💕<br>
+
+        Bhagwan kare aapki life hamesha happiness,
+        success aur endless smiles se bhari rahe 🎂✨<br><br>
+
+        Stay happy, keep smiling and always shine like a star 💖
+
+      </p>
+
+      <div class="buttons">
+
+        <button onclick="showSurprise()">
+          Open Surprise 🎁
+        </button>
+
+        <button onclick="showLetter()">
+          Special Message 💌
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- POPUP -->
+
+  <div class="popup" id="popup">
+
+    <div class="popup-card">
+
+      <h2>For The Sweetest Person 💖</h2>
+
+      <p>
+
+        You deserve all the happiness in the world 🌸<br><br>
+
+        Never stop smiling because your smile is precious ✨
+
+      </p>
+
+      <button onclick="closePopup()">
+        Close
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- LETTER -->
+
+  <div class="letter" id="letter">
+
+    <div class="letter-card">
+
+      <h2>Special Letter For Kusum 💌</h2>
+
+      <p>
+
+        Dear Kusum 🌸<br><br>
+
+        Thank you for being such an amazing person 💖<br><br>
+
+        Aapki kindness aur smile bahut special hai ✨<br><br>
+
+        May your every day become as beautiful as today 🎂💕
+
+      </p>
+
+      <button onclick="closeLetter()">
+        Close
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

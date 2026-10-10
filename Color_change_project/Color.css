@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px auto;
+}
+.Color_Box{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 14px;
+    cursor: pointer;
+}
+#green{
+    background-color: green;
+    
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}

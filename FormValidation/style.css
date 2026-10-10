@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-width: 100vw;
+
+    min-height: 100vh;
+    background-image:url("https://media.istockphoto.com/id/1169276040/vector/neon-blue-coloured-half-tone-vector-background-illustration.jpg?s=612x612&w=0&k=20&c=mH7cK8hXepaG2h9ipgJ7gxX5Wb6ZLtgR_1AVFgRRYQY=");
+    /* background-repeat: no-repeat; */
+    padding: 3rem;
+}
+.FormContainer{
+    max-width: 60%;
+    max-height: 50%;
+    margin: 2rem auto;
+    /* background-color: burlywood; */
+    padding: 2rem;
+    display: flex;
+    gap: 0.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+
+    /* box-shadow:  1px 1px rgb(44, 44, 194),-1px -1px rgb(44, 44, 194); */
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    position: relative;
+}
+label{
+    color: white;
+    font-size: 18px;
+}
+input{
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+button{
+    color: white;
+    background-color: skyblue;
+    border: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    width: 10rem;
+    cursor: pointer;
+    transition: background-color 5ms linear;
+    
+}
+span{
+    color: lightgreen;
+    
+    font-size: 18px;
+}
+button:hover{
+    background-color:rgb(112, 208, 247);
+}
+i{
+    /* color: green; */
+    color: red;
+    position: absolute;
+    right: 2px;
+    bottom: 0.8rem;
+    /* padding: 0 px; */
+    
+    
+}
+.fa-xmark{
+    bottom: 2rem;
+    position: absolute;
+}

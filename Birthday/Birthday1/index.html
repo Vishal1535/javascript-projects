@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday Kusum 💖</title>
+
+  <link rel="stylesheet"
+        href="style.css">
+
+  <!-- GOOGLE FONT -->
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Parisienne&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- INTRO -->
+
+  <section class="intro"
+           id="intro">
+
+    <div class="gift-box"
+         onclick="openGift()">
+
+      🎁
+
+    </div>
+
+    <h1>
+
+      A Special Surprise
+      For Kusum 💖
+
+    </h1>
+
+    <p>
+
+      Click the Gift 🎀
+
+    </p>
+
+  </section>
+
+  <!-- MUSIC -->
+
+  <audio id="music"
+         loop>
+
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            type="audio/mp3">
+
+  </audio>
+
+  <!-- MAIN -->
+
+  <main class="container">
+
+    <!-- LEFT -->
+
+    <section class="left">
+
+      <div class="image-card">
+
+        <img id="mainImage"
+             src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop">
+
+      </div>
+
+      <!-- POLAROID -->
+
+      <div class="polaroids">
+
+        <div class="photo">
+
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=500&auto=format&fit=crop">
+
+          <span>Pretty Smile 🌸</span>
+
+        </div>
+
+        <div class="photo">
+
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=500&auto=format&fit=crop">
+
+          <span>Beautiful Soul 💖</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- RIGHT -->
+
+    <section class="right">
+
+      <span class="tag">
+
+        🎂 Birthday Girl 🎂
+
+      </span>
+
+      <h1>
+
+        Happy Birthday
+
+        <span>Kusum ✨</span>
+
+      </h1>
+
+      <p id="typing"></p>
+
+      <!-- BUTTONS -->
+
+      <div class="buttons">
+
+        <button onclick="showWish()">
+
+          💌 Wish
+
+        </button>
+
+        <button onclick="showSpecial()">
+
+          🌸 Why Special
+
+        </button>
+
+        <button onclick="showMemories()">
+
+          📸 Memories
+
+        </button>
+
+        <button onclick="showCute()">
+
+          🥺 Cute Mode
+
+        </button>
+
+      </div>
+
+      <!-- MESSAGE -->
+
+      <div class="message-box">
+
+        <h2 id="title">
+
+          Welcome Kusum 💕
+
+        </h2>
+
+        <p id="message">
+
+          Click buttons above
+          for cute surprises ✨
+
+        </p>
+
+      </div>
+
+      <!-- SWEET QUOTE -->
+
+      <div class="quote">
+
+        “Some people make life beautiful
+        just by being in it.” 💖
+
+      </div>
+
+      <!-- TIMELINE -->
+
+      <div class="timeline">
+
+        <div class="timeline-card">
+
+          <span>🌸</span>
+
+          <p>
+
+            Your smile makes everything prettier ✨
+
+          </p>
+
+        </div>
+
+        <div class="timeline-card">
+
+          <span>💖</span>
+
+          <p>
+
+            You deserve endless happiness 💕
+
+          </p>
+
+        </div>
+
+        <div class="timeline-card">
+
+          <span>🎂</span>
+
+          <p>
+
+            Today is all about celebrating YOU 🎉
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- EXTRA -->
+
+      <div class="extra-buttons">
+
+        <button onclick="toggleMusic()">
+
+          🎵 Music
+
+        </button>
+
+        <button onclick="finalSurprise()">
+
+          🎁 Final Surprise
+
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- POPUP -->
+
+  <div class="popup"
+       id="popup">
+
+    <div class="popup-card">
+
+      <h1>
+
+        Happy Birthday Kusum 💖
+
+      </h1>
+
+      <p>
+
+        You deserve all happiness,
+        smiles and beautiful memories ✨
+
+      </p>
+
+      <button onclick="closePopup()">
+
+        Close 🌸
+
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

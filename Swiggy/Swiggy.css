@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding:0 ;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+    /* box-sizing: border-box; */
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.Header_container{
+    height: 114%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   margin-top: 0.5rem;
+    background-color:rgb(255, 82, 0) ;
+}
+.nav_container{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 5rem;
+    padding: 2rem; */
+}
+#Logo_Icon{
+    height: 70px;
+    width: 69px;
+    /* color: black; */
+}
+
+.SwiggySymbol{
+    
+/* background-color:rgb(255, 82, 0) ; */
+width: 182px;
+height: 60px;
+}
+#Logo_Icon{
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+}
+.navContain{
+    display: flex;
+    gap: 4rem;
+    padding-top: 1.1rem;
+    margin-top: 1.7rem;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-left: 6rem;
+    padding-top: 1.7rem;
+    
+    
+}
+.Corporate{
+    display: flex;
+    gap: 2.3rem;
+    justify-content: space-between;
+}
+.App{
+    display: flex;
+}
+#app{
+    display: flex;
+    gap: 0.6rem;
+    font-size: 18px;
+    border: 0.5px solid white;
+    margin-top: -0.5rem;
+    padding: 0.34rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 8rem;
+    height: 2rem;
+}
+.Sign{
+    background-color: black;
+    height: 3rem;
+    width: 5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 1.2rem;
+    margin-top: -0.5rem;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.mid_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.01rem;
+    /* align-items: center; */
+    /* padding: 0.4rem; */
+    overflow: hidden;
+}
+.mid_left{
+    height: 580px;
+    width: 550px;
+    margin-top: 1.2rem;
+}
+.mid_contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    width: 80%;
+    height: 45%;
+   
+    
+    
+    /* justify-content: center; */
+}
+.mid_heading{
+    font-size: 46px;
+    text-align: center;
+}
+.order_info{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+.mid_right{
+       height: 500px;
+    width: 380px;
+}
+.location{
+    display: flex;
+    margin-top: 1rem;
+    padding: 0.9rem;
+  
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 9px;
+}
+.logo_location{
+    background-color: white;
+    height:1.2rem;
+    width: 1.2rem;
+    padding-right: 0.4rem;
+    /* position: relative; */
+    padding-bottom: 0.3rem;
+    
+}
+.delivery_location{
+    text-decoration: none;
+    margin-right: 0.4rem;
+    width: 200px;
+    /* height: 2rem; */
+    /* height: 30px; */
+   padding-top: 0.1rem;
+}
+.Location_input{
+  border: none;
+  height: 19px;
+  /* color: red; */
+  color: black;
+  padding-left: 0.6rem;
+  font-size: 1rem;
+   
+}
+
+.Location_input:focus{
+   
+        border: none;
+        outline: none;
+    
+}
+.search_resaurant{
+      display: flex;
+    margin-top: 1rem;
+    padding: 0.9rem;
+  width: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 9px;
+    gap: 0.2rem;
+}
+.Resaurant{
+     text-decoration: none;
+    margin-right: 0.4rem;
+    width: 270px;
+    /* height: 2rem; */
+    /* height: 30px; */
+   padding-top: 0.1rem;
+}
+.Resaurtant_item{
+      border: none;
+        outline: none;
+        width: 100%;
+        margin-left: -.3rem;
+         border: none;
+  height: 21px;
+  /* color: red; */
+  color: black;
+  font-size: 1rem;
+  
+
+}
+.search{
+    height: 24px;
+    width: 22px;
+    /* background-color: rgb(105, 104, 101); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0.2rem;
+    /* color: red; */
+    
+    /* background-color: black; */
+   
+}
+#Seacrh_icon{
+    color: rgb(134, 121, 121);
+    height: 15px;
+    width: 15px;
+    margin: 0.6rem;
+    
+}
+.product_img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;
+    margin-right: -2.5rem;
+    margin-left: -2.3rem;
+    gap: 0.2rem;
+    
+   
+}
+.img1{
+    height: 300px;
+    width: 290px;
+}
+.line{
+    background-color: white;
+    width: 85vw;
+    height: 1.05rem;
+    /* border-radius: 10px; */
+    margin-left: 1.7rem;
+    margin: 0 auto;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lift_icon{
+    color: rgb(150, 142, 142);
+    padding-left: 0.3rem;
+    padding-top: 0.1rem;
+}
+#right_icon{
+    color: rgb(150, 142, 142);
+    padding-right: 0.21rem;
+}
+.mid_right{
+    height: 600px;
+    width: 600px;
+}
+.Product_container{
+    width: 100%;
+    height: 75%; 
+}
+.product_container_items{
+
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.product_desc{
+    width: 81vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 0.3rem;
+}
+.food_option{
+    color: rgba(2, 6, 12, 0.92);
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+}
+
+.product_Icon{
+    display: flex;
+    gap: 1.2rem;
+    
+}
+#Left_Product_Icon{
+    color: black;
+    font-size: 15px;
+}
+#Right_Product_Icon{
+    color: black;
+    font-size: 15px;
+    /* background-color: rgb(228, 222, 222);
+    border-radius: 50%; */
+    padding: 0.2rem;
+ 
+    
+}
+.Left_Icon_Container,.Right_Icon_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(228, 222, 222);
+    border-radius: 50%;
+       width: 28px;
+    height: 28px;;
+
+}
+.Product_grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 1rem;
+    
+    /* grid-template-rows: repeat(2,1fr); */
+    /* margin-top: 1.2rem; */
+}
+.Product_Img{
+    height: 180px;
+    width: 180px;
+}
+
+.Product_grid2{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 1rem;
+    margin-top:1rem ;
+}
+.Grocery_img{
+    height: 180px;
+    width: 180px;
+}
+.grocery_item{
+    display: flex;
+    flex-direction: column;
+}
+.Grocery_desc{
+    margin-top: 0.8rem;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+}
+#groceries{
+    height: 50%;
+}
+@media screen and (max-width:1000px) {
+    .nav_container{
+        display:flex ;    
+        flex-direction: column;
+    }
+    .SwiggySymbol{
+        text-align: center;
+        width: 70%;
+        
+        
+        margin: 0 auto;
+        padding-left: 10rem;
+        
+    }
+    #Logo_Icon{
+        text-align: center;
+        height: 5.7rem;
+        width: 9rem;
+        margin-left: 6rem;
+    }
+    
+    .navContain{
+        display: none;
+    }
+    .mid_heading{
+        font-size: 23px;
+        width: 24rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        
+    }
+    .order_info{
+        display: flex;
+        flex-direction: column;
+    } 
+
+}
+
+.App_details{
+   
+    width: 99.6vw;
+   
+  position: relative;
+  top: 3rem;
+  margin-bottom: 1.6rem;
+    
+}
+.food_Delivery{
+    height: 50%;
+    width: 100vw;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+}
+.food_container{
+    height: 100%;
+    width: 80%;
+    margin: 1rem auto;
+   
+}
+.Food_heading{
+    color:  rgba(2, 6, 12, 0.75);
+    padding-top:0.5rem ;
+    font-size: 24px;
+    font-weight: 600;
+}
+.food_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+      
+}
+.colum1{
+     color:  rgba(2, 6, 12, 0.75);
+     margin-top: 2rem;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+    
+}
+.food1{
+     color:  rgba(2, 6, 12, 0.75);
+     border: 1px solid  rgba(2, 6, 12, 0.75) ;
+     text-align: center;
+     
+     padding: 1.3rem;
+     line-height: 15px;
+     height: 1.4rem;
+     font-size: 14px;
+     font-weight: 570;
+     /* height: 2.3rem; */
+     border-radius: 12px;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: -6rem;
+    border: 1px solid  rgba(2, 6, 12, 0.75) ;
+    border-radius: 12px;
+    padding: 1.29rem;
+    /* margin-top: 0.2rem; */
+    /* height: 0.8rem; */
+
+}
+#Show1{
+    /* background-color:  rgb(255, 82, 0); */
+    color:  rgb(255, 82, 0);
+    width: 50%;
+    font-size: 14px;
+    padding: 0;
+    border: none;
+}
+.footer{
+    width: 100vw;
+    height: 75vh;
+    background-color: rgb(240, 240, 245);
+    /* position: relative; */
+    /* top: 5.7rem; */
+    margin-top: 5.7rem;
+}
+.footer_container{
+    height: 90%;
+    width: 80%;
+    margin:0  auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    
+
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: relative;
+    margin-top:1.2rem;
+}
+.footer_img{
+    position: relative;
+    margin-top: 1.2rem;
+    height: 3rem;
+}
+.footer_img1{
+    position: absolute;
+}
+.footer_title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
+.footer_right{
+    display: flex;
+    margin-top: 1.2rem;
+
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 2rem;
+    margin-top: 1.8rem;
+    
+}
+.comapny{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer_heading{
+    font-weight: 450;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 0.2rem;
+}
+.Company_info{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    
+}
+.Company_desc{
+      font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+}
+.contact_top{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Contact_hedeading_top{
+     font-weight: 450;
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 0.2rem;
+}
+.Contact_top_info{
+     display: flex;
+    flex-direction: column;
+    gap:0.8rem;
+    margin-top: -0.6rem;
+}
+.Contact_top_decs{
+    /* font-family: Gilroy; */
+    font-weight: 450;
+    font-size: 16px;
+    margin-bottom: 0.24rem;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
+.Contact_bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 0.87rem;
+}
+.Contact_heading_bottom{
+     font-weight: 450;
+    font-size: 19.5px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 0.2rem;
+}
+.Legal_info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: -0.4rem;
+    
+}
+.Legal_desc{
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+    
+}
+.Available{
+    display: flex;
+    flex-direction: column;
+    gap: 0.87rem;
+}
+.Availabale_title{
+     font-weight: 450;
+    font-size: 19.5px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 0.2rem;
+}
+.Available_location{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: -0.4rem;
+}
+.Location_info{
+     font-weight: 450;
+    font-size: 16px;
+    margin-bottom: 0.24rem;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
+
+#city{
+      font-weight: 450;
+    font-size: 16px;
+    margin-bottom: 0.24rem;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+    /* border: none; */
+    border-radius: 6px;
+    padding: 0.05rem;
+}
+#city_check_box{
+    display: flex;
+    justify-content: space-between;
+}
+#city:focus{
+    outline: none;
+   
+}
+.life_of_swiggy{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 0.3rem;
+}
+.Swiggy_life_heading{
+ font-weight: 450;
+    font-size: 19.5px;
+    line-height: 22px;
+    letter-spacing:0.3px;
+    color: rgba(2, 6, 12, 0.92);
+    margin-bottom: 0.2rem;
+}
+.swiggy_top_items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -0.3rem;
+}
+.swiggy_top{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+.Swiggy_top_desc{
+      font-weight: 450;
+    font-size: 16px;
+    margin-bottom: 0.24rem;
+    line-height: 21px;
+    letter-spacing: -0.4px;
+    color: rgba(2, 6, 12, 0.6);
+}
+.Social_link{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+.Social_link_title{
+  font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgba(2, 6, 12, 0.92);
+}
+.social_link_logo{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    
+}
+.logo{
+    height: 20px;
+    width: 17px;
+}
+.About_app{
+    height: 30vh;
+    width: 100vw;
+    margin-top: -1.2rem;
+    background-color: rgb(240, 240, 245);
+    /* padding-top: 0.7rem; */
+    
+}
+.About_App_Container{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    margin: 1.1rem auto;
+  
+    justify-content: space-around;
+    
+
+}
+.About_App_heading{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: -0.6px;
+    color: rgba(2, 6, 12, 0.75);
+}
+.App_logo{
+    display: flex;
+    gap: 2rem;
+}
+.App{
+    height: 65px;
+    width: 200px;
+    transition: all 0.2s  linear;
+}
+.App:hover{
+    transform: scale(1.045);
+}

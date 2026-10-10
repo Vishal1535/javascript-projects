@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Kusum 💖</title>
+
+  <link rel="stylesheet"
+        href="style.css">
+
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- INTRO -->
+
+  <section class="intro"
+           id="intro">
+
+    <div class="intro-content">
+
+      <div class="gift-box">
+
+        🎁
+
+      </div>
+
+      <h1>
+
+        Happy Birthday
+        Kusum 💖
+
+      </h1>
+
+      <p>
+
+        A Beautiful Surprise
+        For Someone Very Special ✨
+
+      </p>
+
+      <button onclick="openGift()">
+
+        Open Surprise 💕
+
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- MUSIC -->
+
+  <audio id="music"
+         loop>
+
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+            type="audio/mp3">
+
+  </audio>
+
+  <!-- MAIN -->
+
+  <main class="main">
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="hero-left">
+
+        <span class="tag">
+
+          🎂 Birthday Girl
+
+        </span>
+
+        <h1>
+
+          Kusum 💖
+
+        </h1>
+
+        <p id="typing"></p>
+
+        <div class="buttons">
+
+          <button onclick="showWish()">
+
+            💌 Wish
+
+          </button>
+
+          <button onclick="showLetter()">
+
+            🌸 Letter
+
+          </button>
+
+          <button onclick="showReasons()">
+
+            ✨ Special
+
+          </button>
+
+          <button onclick="showMemory()">
+
+            📸 Memories
+
+          </button>
+
+        </div>
+
+      </div>
+
+      <div class="hero-right">
+
+        <div class="circle"></div>
+
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop">
+
+      </div>
+
+    </section>
+
+    <!-- MESSAGE -->
+
+    <section class="message-box">
+
+      <h2 id="title">
+
+        Welcome 💖
+
+      </h2>
+
+      <p id="message">
+
+        Click buttons above
+        for beautiful surprises ✨
+
+      </p>
+
+    </section>
+
+    <!-- QUOTES -->
+
+    <section class="quote-section">
+
+      <div class="quote-card">
+
+        🌸 "Your smile makes everything prettier"
+
+      </div>
+
+      <div class="quote-card">
+
+        💖 "Some people are pure magic"
+
+      </div>
+
+      <div class="quote-card">
+
+        ✨ "Beautiful heart, beautiful soul"
+
+      </div>
+
+    </section>
+
+    <!-- GALLERY -->
+
+    <section class="gallery">
+
+      <div class="gallery-card">
+
+        <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1200&auto=format&fit=crop">
+
+      </div>
+
+      <div class="gallery-card">
+
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop">
+
+      </div>
+
+      <div class="gallery-card">
+
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop">
+
+      </div>
+
+    </section>
+
+    <!-- BOTTOM -->
+
+    <section class="bottom">
+
+      <button onclick="toggleMusic()">
+
+        🎵 Music
+
+      </button>
+
+    </section>
+
+  </main>
+
+  <!-- MEMORY POPUP -->
+
+  <div class="memory-popup"
+       id="memoryPopup">
+
+    <div class="memory-box">
+
+      <button class="close-memory"
+              onclick="closeMemory()">
+
+        ×
+
+      </button>
+
+      <img id="memoryImage"
+           src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="memory-text">
+
+        <h2 id="memoryTitle">
+
+          Beautiful Smile 💖
+
+        </h2>
+
+        <p id="memoryText">
+
+          Your smile makes every moment feel soft and magical ✨
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

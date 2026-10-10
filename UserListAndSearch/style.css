@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ContainerBox{
+   width: 30%;
+   padding: 10px;
+   border-radius: 10px;
+   height: 25rem;
+   /* position: relative; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+   /* top: 3rem; */
+    background-color: white;
+    margin: 0 auto;
+   
+}
+.Heading{
+    font-size: 28px;
+
+
+}
+input{
+    width: 95%;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    /* border: none; */
+    /* border-radius: 5px; */
+}
+.UserContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    gap: 1rem;
+}
+.UserItem{
+    display: flex;
+    gap: 0.3rem;
+    border-radius: 5px;
+    background-color: rgba(33, 107, 15, 0.199);
+    padding: 5px;
+    align-items: center;
+    cursor: pointer;
+    /* justify-content: center;
+    align-content: center; */
+}
+img{
+    width:55px;
+    height: 50px;
+    border-radius: 50%;
+}
